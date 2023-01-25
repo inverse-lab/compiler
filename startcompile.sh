@@ -18,7 +18,12 @@ function compile(){
 	. compile.sh
 }
 
+function exit(){
+        . exit.sh
+}
+
 target
 telegram
 check
 compile
+exit
