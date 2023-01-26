@@ -7,7 +7,7 @@ make -j$(nproc) ARCH=arm64 O=out \
 	CROSS_COMPILE=${CLANG_ROOTDIR}/bin/aarch64-linux-gnu- \
 	CROSS_COMPILE_ARM32=${CLANG_ROOTDIR}/bin/arm-linux-gnueabi-
 
-build_message "Mulai!!!️"
+build_message "Mulai!"
 
 if ! [[ -f "$IMG_PATH/Image.gz-dtb" || -f "$IMG_PATH/Image" ]]; then
      tg_send_message --chat_id "$CHAT_ID" --text "   ====== Compile Aborted 😓 ======
