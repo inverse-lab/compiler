@@ -12,7 +12,7 @@ export TG_TOKEN=5897356168:AAFmBbQ2ZPbKsUuL6xrkIq6GhXPbjHkalTM
 export CHAT_ID=1724535418
 export DATE=$(date)
 export KERNELNAME=(GreenForce)
-export KERNELBRANCH=(Juice)
+export KERNELBRANCH=(main)
 export COMPILE=(Proton-Clang)
 export DEVICE=(Juice)
 
